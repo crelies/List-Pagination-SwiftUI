@@ -16,6 +16,7 @@
 		B9DFF74D22F7871C00002DA4 /* ListPaginationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */; };
 		B9DFF75022F7881500002DA4 /* String+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */; };
 		B9DFF75222F7883000002DA4 /* RandomAccessCollection+isLastItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF75122F7883000002DA4 /* RandomAccessCollection+isLastItem.swift */; };
+		B9DFF75722F84B3300002DA4 /* ListPaginationThresholdExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B9DFF75122F7883000002DA4 /* RandomAccessCollection+isLastItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomAccessCollection+isLastItem.swift"; sourceTree = "<group>"; };
 		B9DFF75422F8180500002DA4 /* ListPagination.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ListPagination.gif; sourceTree = "<group>"; };
 		B9DFF75522F8183600002DA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPaginationThresholdExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */,
+				B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9DFF73922F7870800002DA4 /* AppDelegate.swift in Sources */,
+				B9DFF75722F84B3300002DA4 /* ListPaginationThresholdExampleView.swift in Sources */,
 				B9DFF73B22F7870800002DA4 /* SceneDelegate.swift in Sources */,
 				B9DFF75022F7881500002DA4 /* String+Identifiable.swift in Sources */,
 				B9DFF75222F7883000002DA4 /* RandomAccessCollection+isLastItem.swift in Sources */,

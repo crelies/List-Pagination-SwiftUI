@@ -22,8 +22,8 @@ extension RandomAccessCollection where Self.Element: Identifiable {
         return distance == 1
     }
     
-    func isThresholdPassed<Item: Identifiable>(offset: Int,
-                                               item: Item) -> Bool {
+    func isThresholdItem<Item: Identifiable>(offset: Int,
+                                             item: Item) -> Bool {
         guard !isEmpty else {
             return false
         }
@@ -35,6 +35,6 @@ extension RandomAccessCollection where Self.Element: Identifiable {
         }
         
         let distance = self.distance(from: itemIndex, to: endIndex)
-        return offset >= (distance - 1)
+        return offset == (distance - 1)
     }
 }
