@@ -64,21 +64,6 @@ extension ListPaginationExampleView {
     }
 }
 
-/*extension ListPaginationExampleView {
-    private func didPassItemThreshold<Item: Identifiable>(workingRangeSize: Int = 5, item: Item) -> Bool {
-        guard !items.isEmpty else {
-            return true
-        }
-        
-        guard let itemIndex = items.firstIndex(where: { $0.id.hashValue == item.id.hashValue }) else {
-            return true
-        }
-        
-        let threshold = ((page * pageSize) + pageSize) - workingRangeSize
-        return itemIndex >= threshold
-    }
-}*/
-
 #if DEBUG
 struct ListPaginationExampleView_Previews: PreviewProvider {
     static var previews: some View {
