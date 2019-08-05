@@ -31,6 +31,7 @@
 		B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Identifiable.swift"; sourceTree = "<group>"; };
 		B9DFF75122F7883000002DA4 /* RandomAccessCollection+isLastItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomAccessCollection+isLastItem.swift"; sourceTree = "<group>"; };
 		B9DFF75422F8180500002DA4 /* ListPagination.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ListPagination.gif; sourceTree = "<group>"; };
+		B9DFF75522F8183600002DA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				B9DFF75422F8180500002DA4 /* ListPagination.gif */,
+				B9DFF75522F8183600002DA4 /* README.md */,
 				B9DFF73722F7870800002DA4 /* SwiftUI-List-Pagination */,
 				B9DFF73622F7870800002DA4 /* Products */,
 			);
