@@ -28,13 +28,12 @@ extension RandomAccessCollection where Self.Element: Identifiable {
             return false
         }
         
-        let offset = offset < count ? offset : count - 1
-        
         guard let itemIndex = firstIndex(where: { AnyHashable($0.id) == AnyHashable(item.id) }) else {
             return false
         }
         
         let distance = self.distance(from: itemIndex, to: endIndex)
+        let offset = offset < count ? offset : count - 1
         return offset == (distance - 1)
     }
 }
