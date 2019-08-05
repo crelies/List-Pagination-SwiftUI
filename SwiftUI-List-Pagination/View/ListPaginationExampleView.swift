@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ListPaginationExampleView: View {
     @State private var items: [String] = Array(0...24).map { "Item \($0)" }
+    @State private var isLoading: Bool = false
     @State private var page: Int = 0
     private let pageSize: Int = 25
     
@@ -19,7 +20,7 @@ struct ListPaginationExampleView: View {
                 VStack(alignment: .leading) {
                     Text(item)
                     
-                    if self.items.isLastItem(item) {
+                    if self.isLoading && self.items.isLastItem(item) {
                         Divider()
                         Text("Loading ...")
                             .padding(.vertical)
@@ -37,6 +38,8 @@ struct ListPaginationExampleView: View {
 extension ListPaginationExampleView {
     private func listItemAppears<Item: Identifiable>(_ item: Item) {
         if items.isLastItem(item) {
+            isLoading = true
+            
             /*
                 Simulated async behaviour:
                 Creates items for the next page and
@@ -46,6 +49,8 @@ extension ListPaginationExampleView {
                 self.page += 1
                 let moreItems = self.getMoreItems(forPage: self.page, pageSize: self.pageSize)
                 self.items.append(contentsOf: moreItems)
+                
+                self.isLoading = false
             }
         }
     }
