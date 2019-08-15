@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9CA8061230543F3004460BF /* ListPagination in Frameworks */ = {isa = PBXBuildFile; productRef = B9CA8060230543F3004460BF /* ListPagination */; };
 		B9DFF73922F7870800002DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF73822F7870800002DA4 /* AppDelegate.swift */; };
 		B9DFF73B22F7870800002DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF73A22F7870800002DA4 /* SceneDelegate.swift */; };
 		B9DFF73D22F7870800002DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF73C22F7870800002DA4 /* ContentView.swift */; };
@@ -15,7 +16,6 @@
 		B9DFF74522F7870C00002DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DFF74322F7870C00002DA4 /* LaunchScreen.storyboard */; };
 		B9DFF74D22F7871C00002DA4 /* ListPaginationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */; };
 		B9DFF75022F7881500002DA4 /* String+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */; };
-		B9DFF75222F7883000002DA4 /* RandomAccessCollection+isLastItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF75122F7883000002DA4 /* RandomAccessCollection+isLastItem.swift */; };
 		B9DFF75722F84B3300002DA4 /* ListPaginationThresholdExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,6 @@
 		B9DFF74622F7870C00002DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPaginationExampleView.swift; sourceTree = "<group>"; };
 		B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Identifiable.swift"; sourceTree = "<group>"; };
-		B9DFF75122F7883000002DA4 /* RandomAccessCollection+isLastItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RandomAccessCollection+isLastItem.swift"; sourceTree = "<group>"; };
 		B9DFF75422F8180500002DA4 /* ListPagination.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ListPagination.gif; sourceTree = "<group>"; };
 		B9DFF75522F8183600002DA4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPaginationThresholdExampleView.swift; sourceTree = "<group>"; };
@@ -41,12 +40,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9CA8061230543F3004460BF /* ListPagination in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9CA805C23053EC8004460BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9DFF72C22F7870800002DA4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +61,7 @@
 				B9DFF75522F8183600002DA4 /* README.md */,
 				B9DFF73722F7870800002DA4 /* SwiftUI-List-Pagination */,
 				B9DFF73622F7870800002DA4 /* Products */,
+				B9CA805C23053EC8004460BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +100,6 @@
 		B9DFF74E22F7880400002DA4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				B9DFF75122F7883000002DA4 /* RandomAccessCollection+isLastItem.swift */,
 				B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */,
 			);
 			path = Extensions;
@@ -123,6 +130,9 @@
 			dependencies = (
 			);
 			name = "SwiftUI-List-Pagination";
+			packageProductDependencies = (
+				B9CA8060230543F3004460BF /* ListPagination */,
+			);
 			productName = "SwiftUI-List-Pagination";
 			productReference = B9DFF73522F7870800002DA4 /* SwiftUI-List-Pagination.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +161,9 @@
 				Base,
 			);
 			mainGroup = B9DFF72C22F7870800002DA4;
+			packageReferences = (
+				B9CA805F230543F3004460BF /* XCRemoteSwiftPackageReference "ListPagination" */,
+			);
 			productRefGroup = B9DFF73622F7870800002DA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -182,7 +195,6 @@
 				B9DFF75722F84B3300002DA4 /* ListPaginationThresholdExampleView.swift in Sources */,
 				B9DFF73B22F7870800002DA4 /* SceneDelegate.swift in Sources */,
 				B9DFF75022F7881500002DA4 /* String+Identifiable.swift in Sources */,
-				B9DFF75222F7883000002DA4 /* RandomAccessCollection+isLastItem.swift in Sources */,
 				B9DFF73D22F7870800002DA4 /* ContentView.swift in Sources */,
 				B9DFF74D22F7871C00002DA4 /* ListPaginationExampleView.swift in Sources */,
 			);
@@ -376,6 +388,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B9CA805F230543F3004460BF /* XCRemoteSwiftPackageReference "ListPagination" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/ListPagination";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9CA8060230543F3004460BF /* ListPagination */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9CA805F230543F3004460BF /* XCRemoteSwiftPackageReference "ListPagination" */;
+			productName = ListPagination;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9DFF72D22F7870800002DA4 /* Project object */;
 }

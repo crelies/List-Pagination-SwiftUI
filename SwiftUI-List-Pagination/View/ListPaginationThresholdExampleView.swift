@@ -6,6 +6,7 @@
 //  Copyright © 2019 Christian Elies. All rights reserved.
 //
 
+import ListPagination
 import SwiftUI
 
 struct ListPaginationThresholdExampleView: View {
