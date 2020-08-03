@@ -6,8 +6,6 @@
 //  Copyright © 2019 Christian Elies. All rights reserved.
 //
 
-import SwiftUI
-
 /*
     If you want to display an array of strings
     in the List view you have to specify a key path,

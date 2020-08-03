@@ -7,28 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9CA8061230543F3004460BF /* ListPagination in Frameworks */ = {isa = PBXBuildFile; productRef = B9CA8060230543F3004460BF /* ListPagination */; };
-		B9DFF73922F7870800002DA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF73822F7870800002DA4 /* AppDelegate.swift */; };
-		B9DFF73B22F7870800002DA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF73A22F7870800002DA4 /* SceneDelegate.swift */; };
-		B9DFF73D22F7870800002DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF73C22F7870800002DA4 /* ContentView.swift */; };
-		B9DFF73F22F7870C00002DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DFF73E22F7870C00002DA4 /* Assets.xcassets */; };
-		B9DFF74222F7870C00002DA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DFF74122F7870C00002DA4 /* Preview Assets.xcassets */; };
-		B9DFF74522F7870C00002DA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9DFF74322F7870C00002DA4 /* LaunchScreen.storyboard */; };
-		B9DFF74D22F7871C00002DA4 /* ListPaginationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */; };
-		B9DFF75022F7881500002DA4 /* String+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */; };
-		B9DFF75722F84B3300002DA4 /* ListPaginationThresholdExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */; };
+		B944336524D8AA69000A7914 /* SwiftUI_List_PaginationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B944335324D8AA68000A7914 /* SwiftUI_List_PaginationApp.swift */; };
+		B944336924D8AA69000A7914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B944335524D8AA69000A7914 /* Assets.xcassets */; };
+		B944337124D8AAE4000A7914 /* String+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */; };
+		B944337324D8AAF9000A7914 /* ListPaginationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */; };
+		B944337524D8AAFC000A7914 /* ListPaginationThresholdExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */; };
+		B944337724D8ABB3000A7914 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF73C22F7870800002DA4 /* ContentView.swift */; };
+		B944337A24D8ABBE000A7914 /* ListPagination in Frameworks */ = {isa = PBXBuildFile; productRef = B944337924D8ABBE000A7914 /* ListPagination */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B91CAD892307F95A00EB67B1 /* SwiftUI-List-Pagination.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-List-Pagination.entitlements"; sourceTree = "<group>"; };
-		B9DFF73522F7870800002DA4 /* SwiftUI-List-Pagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-List-Pagination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DFF73822F7870800002DA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9DFF73A22F7870800002DA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B916B79B24D8AD1F00D1E0AB /* SwiftUI-List-Pagination.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SwiftUI-List-Pagination.entitlements"; sourceTree = "<group>"; };
+		B944335324D8AA68000A7914 /* SwiftUI_List_PaginationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_List_PaginationApp.swift; sourceTree = "<group>"; };
+		B944335524D8AA69000A7914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B944335A24D8AA69000A7914 /* SwiftUI-List-Pagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-List-Pagination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B944335C24D8AA69000A7914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DFF73C22F7870800002DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B9DFF73E22F7870C00002DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B9DFF74122F7870C00002DA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B9DFF74422F7870C00002DA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B9DFF74622F7870C00002DA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPaginationExampleView.swift; sourceTree = "<group>"; };
 		B9DFF74F22F7881500002DA4 /* String+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Identifiable.swift"; sourceTree = "<group>"; };
 		B9DFF75422F8180500002DA4 /* ListPagination.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ListPagination.gif; sourceTree = "<group>"; };
@@ -37,17 +31,37 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B9DFF73222F7870800002DA4 /* Frameworks */ = {
+		B944335724D8AA69000A7914 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9CA8061230543F3004460BF /* ListPagination in Frameworks */,
+				B944337A24D8ABBE000A7914 /* ListPagination in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B944335224D8AA68000A7914 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B9DFF73C22F7870800002DA4 /* ContentView.swift */,
+				B944335324D8AA68000A7914 /* SwiftUI_List_PaginationApp.swift */,
+				B944335524D8AA69000A7914 /* Assets.xcassets */,
+				B9DFF74E22F7880400002DA4 /* Extensions */,
+				B9DFF75322F788B800002DA4 /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B944335B24D8AA69000A7914 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B944335C24D8AA69000A7914 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		B9CA805C23053EC8004460BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,9 +72,11 @@
 		B9DFF72C22F7870800002DA4 = {
 			isa = PBXGroup;
 			children = (
+				B916B79B24D8AD1F00D1E0AB /* SwiftUI-List-Pagination.entitlements */,
 				B9DFF75422F8180500002DA4 /* ListPagination.gif */,
 				B9DFF75522F8183600002DA4 /* README.md */,
-				B9DFF73722F7870800002DA4 /* SwiftUI-List-Pagination */,
+				B944335224D8AA68000A7914 /* Shared */,
+				B944335B24D8AA69000A7914 /* iOS */,
 				B9DFF73622F7870800002DA4 /* Products */,
 				B9CA805C23053EC8004460BF /* Frameworks */,
 			);
@@ -69,34 +85,9 @@
 		B9DFF73622F7870800002DA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9DFF73522F7870800002DA4 /* SwiftUI-List-Pagination.app */,
+				B944335A24D8AA69000A7914 /* SwiftUI-List-Pagination.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B9DFF73722F7870800002DA4 /* SwiftUI-List-Pagination */ = {
-			isa = PBXGroup;
-			children = (
-				B91CAD892307F95A00EB67B1 /* SwiftUI-List-Pagination.entitlements */,
-				B9DFF74E22F7880400002DA4 /* Extensions */,
-				B9DFF75322F788B800002DA4 /* View */,
-				B9DFF73822F7870800002DA4 /* AppDelegate.swift */,
-				B9DFF73A22F7870800002DA4 /* SceneDelegate.swift */,
-				B9DFF73C22F7870800002DA4 /* ContentView.swift */,
-				B9DFF73E22F7870C00002DA4 /* Assets.xcassets */,
-				B9DFF74322F7870C00002DA4 /* LaunchScreen.storyboard */,
-				B9DFF74622F7870C00002DA4 /* Info.plist */,
-				B9DFF74022F7870C00002DA4 /* Preview Content */,
-			);
-			path = "SwiftUI-List-Pagination";
-			sourceTree = "<group>";
-		};
-		B9DFF74022F7870C00002DA4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				B9DFF74122F7870C00002DA4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		B9DFF74E22F7880400002DA4 /* Extensions */ = {
@@ -107,36 +98,36 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		B9DFF75322F788B800002DA4 /* View */ = {
+		B9DFF75322F788B800002DA4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				B9DFF74C22F7871C00002DA4 /* ListPaginationExampleView.swift */,
 				B9DFF75622F84B3300002DA4 /* ListPaginationThresholdExampleView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9DFF73422F7870800002DA4 /* SwiftUI-List-Pagination */ = {
+		B944335924D8AA69000A7914 /* SwiftUI-List-Pagination (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9DFF74922F7870C00002DA4 /* Build configuration list for PBXNativeTarget "SwiftUI-List-Pagination" */;
+			buildConfigurationList = B944336B24D8AA69000A7914 /* Build configuration list for PBXNativeTarget "SwiftUI-List-Pagination (iOS)" */;
 			buildPhases = (
-				B9DFF73122F7870800002DA4 /* Sources */,
-				B9DFF73222F7870800002DA4 /* Frameworks */,
-				B9DFF73322F7870800002DA4 /* Resources */,
+				B944335624D8AA69000A7914 /* Sources */,
+				B944335724D8AA69000A7914 /* Frameworks */,
+				B944335824D8AA69000A7914 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SwiftUI-List-Pagination";
+			name = "SwiftUI-List-Pagination (iOS)";
 			packageProductDependencies = (
-				B9CA8060230543F3004460BF /* ListPagination */,
+				B944337924D8ABBE000A7914 /* ListPagination */,
 			);
-			productName = "SwiftUI-List-Pagination";
-			productReference = B9DFF73522F7870800002DA4 /* SwiftUI-List-Pagination.app */;
+			productName = "SwiftUI-List-Pagination (iOS)";
+			productReference = B944335A24D8AA69000A7914 /* SwiftUI-List-Pagination.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,12 +136,12 @@
 		B9DFF72D22F7870800002DA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Christian Elies";
 				TargetAttributes = {
-					B9DFF73422F7870800002DA4 = {
-						CreatedOnToolsVersion = 11.0;
+					B944335924D8AA69000A7914 = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
@@ -170,52 +161,89 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9DFF73422F7870800002DA4 /* SwiftUI-List-Pagination */,
+				B944335924D8AA69000A7914 /* SwiftUI-List-Pagination (iOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B9DFF73322F7870800002DA4 /* Resources */ = {
+		B944335824D8AA69000A7914 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DFF74522F7870C00002DA4 /* LaunchScreen.storyboard in Resources */,
-				B9DFF74222F7870C00002DA4 /* Preview Assets.xcassets in Resources */,
-				B9DFF73F22F7870C00002DA4 /* Assets.xcassets in Resources */,
+				B944336924D8AA69000A7914 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B9DFF73122F7870800002DA4 /* Sources */ = {
+		B944335624D8AA69000A7914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DFF73922F7870800002DA4 /* AppDelegate.swift in Sources */,
-				B9DFF75722F84B3300002DA4 /* ListPaginationThresholdExampleView.swift in Sources */,
-				B9DFF73B22F7870800002DA4 /* SceneDelegate.swift in Sources */,
-				B9DFF75022F7881500002DA4 /* String+Identifiable.swift in Sources */,
-				B9DFF73D22F7870800002DA4 /* ContentView.swift in Sources */,
-				B9DFF74D22F7871C00002DA4 /* ListPaginationExampleView.swift in Sources */,
+				B944337124D8AAE4000A7914 /* String+Identifiable.swift in Sources */,
+				B944337724D8ABB3000A7914 /* ContentView.swift in Sources */,
+				B944337524D8AAFC000A7914 /* ListPaginationThresholdExampleView.swift in Sources */,
+				B944337324D8AAF9000A7914 /* ListPaginationExampleView.swift in Sources */,
+				B944336524D8AA69000A7914 /* SwiftUI_List_PaginationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		B9DFF74322F7870C00002DA4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9DFF74422F7870C00002DA4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		B944336C24D8AA69000A7914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-List-Pagination.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.crelies.SwiftUI-List-Pagination";
+				PRODUCT_NAME = "SwiftUI-List-Pagination";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		B944336D24D8AA69000A7914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "SwiftUI-List-Pagination.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.crelies.SwiftUI-List-Pagination";
+				PRODUCT_NAME = "SwiftUI-List-Pagination";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		B9DFF74722F7870C00002DA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,73 +358,23 @@
 			};
 			name = Release;
 		};
-		B9DFF74A22F7870C00002DA4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI-List-Pagination/SwiftUI-List-Pagination.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_ASSET_PATHS = "SwiftUI-List-Pagination/Preview\\ Content";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-List-Pagination/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.crelies.SwiftUI-List-Pagination";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B9DFF74B22F7870C00002DA4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "SwiftUI-List-Pagination/SwiftUI-List-Pagination.entitlements";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_ASSET_PATHS = "SwiftUI-List-Pagination/Preview\\ Content";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "SwiftUI-List-Pagination/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.crelies.SwiftUI-List-Pagination";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTS_MACCATALYST = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B944336B24D8AA69000A7914 /* Build configuration list for PBXNativeTarget "SwiftUI-List-Pagination (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B944336C24D8AA69000A7914 /* Debug */,
+				B944336D24D8AA69000A7914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B9DFF73022F7870800002DA4 /* Build configuration list for PBXProject "SwiftUI-List-Pagination" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9DFF74722F7870C00002DA4 /* Debug */,
 				B9DFF74822F7870C00002DA4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9DFF74922F7870C00002DA4 /* Build configuration list for PBXNativeTarget "SwiftUI-List-Pagination" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9DFF74A22F7870C00002DA4 /* Debug */,
-				B9DFF74B22F7870C00002DA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -415,7 +393,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B9CA8060230543F3004460BF /* ListPagination */ = {
+		B944337924D8ABBE000A7914 /* ListPagination */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B9CA805F230543F3004460BF /* XCRemoteSwiftPackageReference "ListPagination" */;
 			productName = ListPagination;

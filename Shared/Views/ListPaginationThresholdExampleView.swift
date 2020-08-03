@@ -15,57 +15,63 @@ struct ListPaginationThresholdExampleView: View {
     @State private var page: Int = 0
     private let pageSize: Int = 25
     private let offset: Int = 10
-    
+
     var body: some View {
         NavigationView {
             List(items) { item in
                 VStack(alignment: .leading) {
                     Text(item)
-                    
-                    if self.isLoading && self.items.isLastItem(item) {
+
+                    if isLoading && items.isLastItem(item) {
                         Divider()
-                        Text("Loading ...")
-                            .padding(.vertical)
+                        ProgressView()
                     }
                 }.onAppear {
-                    self.listItemAppears(item)
+                    listItemAppears(item)
                 }
             }
-            .navigationBarTitle("List of items")
-            .navigationBarItems(trailing: Text("Page index: \(page)"))
+            .navigationTitle("List of items")
+            .toolbar {
+                ToolbarItem {
+                    Text("Page index: \(page)")
+                }
+            }
         }
     }
 }
 
-extension ListPaginationThresholdExampleView {
-    private func listItemAppears<Item: Identifiable>(_ item: Item) {
-        if items.isThresholdItem(offset: offset,
-                                 item: item) {
+private extension ListPaginationThresholdExampleView {
+    func listItemAppears<Item: Identifiable>(_ item: Item) {
+        if items.isThresholdItem(
+            offset: offset,
+            item: item
+        ) {
             isLoading = true
-            
+
             /*
                 Simulated async behaviour:
                 Creates items for the next page and
                 appends them to the list after a short delay
              */
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
-                self.page += 1
-                let moreItems = self.getMoreItems(forPage: self.page, pageSize: self.pageSize)
-                self.items.append(contentsOf: moreItems)
-                
-                self.isLoading = false
+                page += 1
+                let moreItems = getMoreItems(forPage: page, pageSize: pageSize)
+                items.append(contentsOf: moreItems)
+                isLoading = false
             }
         }
     }
 }
 
-extension ListPaginationThresholdExampleView {
+private extension ListPaginationThresholdExampleView {
     /*
         In a real app you would probably fetch data
         from an external API.
      */
-    private func getMoreItems(forPage page: Int,
-                              pageSize: Int) -> [String] {
+    func getMoreItems(
+        forPage page: Int,
+        pageSize: Int
+    ) -> [String] {
         let maximum = ((page * pageSize) + pageSize) - 1
         let moreItems: [String] = Array(items.count...maximum).map { "Item \($0)" }
         return moreItems
